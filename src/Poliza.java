@@ -22,16 +22,16 @@ public class Poliza {
 		switch (tipo_auto) {
 		case 1:
 			
-			System.out.println("Condicia alcoholizado: ");
+			System.out.println("Conducia alcoholizado: ");
 			System.out.println("Si (1)");
 			System.out.println("No (2)");
 			alcohol = entrada.nextByte();
 			if (alcohol < 2) {
 				almacen_alcohol = (1200 * 0.10);
-				System.out.println("almacen: " + almacen_alcohol);
+				
 			} else {
 				almacen_alcohol = (0);
-				System.out.println("almacen: " + almacen_alcohol);
+				
 			}
 				
 			System.out.println("Padese lentes: ");
@@ -40,10 +40,10 @@ public class Poliza {
 			lentes = entrada.nextByte();
 			if (lentes < 2) {
 				almacen_lentes = (1200 * 0.05);
-				System.out.println("almacen: " + almacen_lentes);
+				
 			} else {
 				almacen_lentes = (0);
-				System.out.println("almacen: " + almacen_lentes);
+				
 			}
 			
 			System.out.println("Padese una enfermedad: ");
@@ -52,10 +52,10 @@ public class Poliza {
 			enfermedad = entrada.nextByte();
 			if (enfermedad < 2) {
 				almacen_enfermedad =  (1200 * 0.05);
-				System.out.println("almacen: " + almacen_enfermedad);
+				
 			} else {
 				almacen_enfermedad = (0);
-				System.out.println("almacen: " + almacen_enfermedad);
+				
 			}
 			
 			System.out.println("Tiene una edad mayor a 40 años: ");
@@ -64,10 +64,10 @@ public class Poliza {
 			anos = entrada.nextByte();
 			if (anos < 2) {
 				almacen_anos =  (1200 * 0.20);
-				System.out.println("almacen: " + almacen_anos);
+				
 			} else {
 				almacen_anos = (1200 * 0.10);
-				System.out.println("almacen: " + almacen_anos);
+				
 			} // fin del if else del tipo A
 			
 			break;
@@ -80,10 +80,10 @@ public class Poliza {
 			alcohol = entrada.nextByte();
 			if (alcohol < 2) {
 				almacen_alcohol = (950 * 0.10);
-				System.out.println("almacen: " + almacen_alcohol);
+				
 			} else {
 				almacen_alcohol = (0);
-				System.out.println("almacen: " + almacen_alcohol);
+				
 			}
 				
 			System.out.println("Padese lentes: ");
@@ -92,10 +92,10 @@ public class Poliza {
 			lentes = entrada.nextByte();
 			if (lentes < 2) {
 				almacen_lentes = (950 * 0.05);
-				System.out.println("almacen: " + almacen_lentes);
+				
 			} else {
 				almacen_lentes = (0);
-				System.out.println("almacen: " + almacen_lentes);
+				
 			}
 			
 			System.out.println("Padese una enfermedad: ");
@@ -104,10 +104,10 @@ public class Poliza {
 			enfermedad = entrada.nextByte();
 			if (enfermedad < 2) {
 				almacen_enfermedad =  (950 * 0.05);
-				System.out.println("almacen: " + almacen_enfermedad);
+				
 			} else {
 				almacen_enfermedad = (0);
-				System.out.println("almacen: " + almacen_enfermedad);
+				
 			}
 			
 			System.out.println("Tiene una edad mayor a 40 años: ");
@@ -116,10 +116,10 @@ public class Poliza {
 			anos = entrada.nextByte();
 			if (anos < 2) {
 				almacen_anos =  (950 * 0.20);
-				System.out.println("almacen: " + almacen_anos);
+				
 			} else {
 				almacen_anos = (950 * 0.10);
-				System.out.println("almacen: " + almacen_anos);
+				
 			} // fin del if else de tipo B
 			
 			break;
